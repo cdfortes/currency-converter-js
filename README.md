@@ -4,7 +4,7 @@ An application to convert between two different currency exchanges. Done with va
 
 - [Demo](https://currency-converterjs.netlify.app/)
 
-<img scr="demo.png" alt="screenshot" />
+<img src="demo.png" alt="screenshot" />
 
 ## Tecnologies
 
