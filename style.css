@@ -1,5 +1,12 @@
+:root {
+  --bg-color: #007de8;
+  --white: #fff;
+  --precision-color: #cebca1;
+  --input-color: #bf7500;
+}
+
 body {
-  background-color: #F9FAFC;
+  background-color: var(--bg-color);
 }
 
 .container {
@@ -7,9 +14,15 @@ body {
 }
 
 .converted-value {
-  color: #452B4E;
+  color: var(--white);
 }
 
 .conversion-precision {
-  color: #452B4E;
+  color: var(--precision-color);
+}
+
+.form-select,
+.form-control {
+  color: var(--input-color);
+  border: 1px solid var(--input-color);
 }
